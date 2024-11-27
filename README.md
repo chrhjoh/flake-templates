@@ -9,7 +9,7 @@ My Nix flake templates. Currently have multiple templates available
 ## Usage
 To show the available templates:
 ```{bash}
-nix flake show -t github:chrhjoh/flake-templates
+nix flake show github:chrhjoh/flake-templates
 ```
 
 To apply a template (Here rust):
