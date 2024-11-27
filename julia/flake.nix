@@ -19,6 +19,7 @@
 
       devShells = forAllSystems (pkgs: {
         default = pkgs.mkShell {
+          name = "julia";
           packages = with pkgs; [
             julia-bin
           ];

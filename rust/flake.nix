@@ -18,6 +18,7 @@
 
       devShells = forAllSystems (pkgs: {
         default = pkgs.mkShell {
+          name = "rust";
           packages = with pkgs; [
             rustc
             cargo
