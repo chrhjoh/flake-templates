@@ -18,14 +18,15 @@
 
       devShells = forAllSystems (pkgs: {
         default = pkgs.mkShell {
+          name = "python-venv";
           packages = with pkgs; [
             python3
           ];
           shellHook = ''
-            if [ ! -d "venv" ]; then
-              python -m venv venv
+            if [ ! -d ".venv" ]; then
+              python -m venv .venv
             fi
-            source venv/bin/activate
+            source .venv/bin/activate
           '';
 
         };

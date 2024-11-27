@@ -3,7 +3,7 @@
 My Nix flake templates. Currently have multiple templates available
 
 * Rust
-* Python
+* Python (with venv or poetry)
 * Julia
 
 ## Usage

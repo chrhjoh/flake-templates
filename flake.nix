@@ -9,9 +9,13 @@
           description = "Rust Template";
           path = ./rust;
         };
-        python = {
+        python-venv = {
           description = "Python Template using venv";
-          path = ./python;
+          path = ./python-venv;
+        };
+        python-poetry = {
+          description = "Python Template using venv";
+          path = ./python-poetry;
         };
         julia = {
           description = "Julia Template";
